@@ -1,0 +1,13 @@
+public class Node {
+    public Object item;
+    public Node next;
+
+    public Node(Object item){
+        this(item, null);
+    }
+
+    public Node(Object item, Node next){
+        this.item = item;
+        this.next = next;
+    }
+}
