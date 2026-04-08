@@ -64,25 +64,4 @@ public class MeuArrayDinamico {
         sb.append("]");
         System.out.println(sb.toString());
     }
-
-    public static void main(String[] args) {
-        MeuArrayDinamico arr = new MeuArrayDinamico(2);
-
-        // Teste exercicio 1
-
-        arr.add(10);
-        arr.add(20);
-        arr.imprimir();
-        arr.add(30);
-        arr.add(40);
-        arr.imprimir();
-
-        // Teste exercicio 2
-
-        arr.remove(1);
-        arr.imprimir();
-        arr.remove(0);
-        arr.imprimir();
-        System.out.println("Tamanho: " + arr.size());
-    }
 }
