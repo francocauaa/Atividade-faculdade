@@ -20,12 +20,4 @@ public class ListaSimples {
 
         System.out.println("null");
     }
-
-    public static void main(String[] args) {
-        ListaSimples lista = new ListaSimples();
-        lista.insertFirst("C");
-        lista.insertFirst("B");
-        lista.insertFirst("A");
-        lista.imprimir();
-    }
 }
